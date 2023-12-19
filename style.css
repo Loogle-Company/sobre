@@ -50,3 +50,23 @@ iframe {
     position: absolute;
 }
 
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5em;
+        position: static;
+        text-align: center;
+    }
+
+    p {
+        width: 100%;
+        position: static;
+        text-align: justify;
+    }
+
+    iframe {
+        width: 100%;
+        height: 30vh; /* Adjust the height as needed */
+        margin: 10px 0;
+        position: static;
+    }
+}
